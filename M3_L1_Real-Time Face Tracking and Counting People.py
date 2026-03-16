@@ -1,3 +1,10 @@
+#Module3: Lesson1 : Realtime Face tracking & People count
+"""In this lesson, students will learn how to track multiple faces in real-time and count the number of people present in the frame using their webcam. 
+We will leverage OpenCV's Haar Cascade Classifier for face detection and explore how to track faces dynamically while displaying the real-time count of faces
+detected in the frame. This lesson will also help students understand how real-time face tracking is used in Al applications such as security systems,
+human-computer interaction, and more. By the end of this lesson, students will have hands-on experience with face tracking, real-time counting, and visualizing
+these results on live video streams. """
+
 import cv2
 # Load pre-trained Haar Cascade Classifier for face detection
 face_cascade cv2.CascadeClassifier (cv2.data.haarcascades +'haarcascade_frontalface_default.xml')
