@@ -1,4 +1,8 @@
 #Module 3 Lesson 2: Real-Time Color Filters and Edge Detection
+"""Objective : In this lesson, students will apply real-time color filters and perform edge detection on an image using keyboard input.
+Students will learn how to toggle between different color effects (such as red, green, and blue tints) and edge detection techniques 
+(Sobel and Canny) by pressing specific keys, allowing them to manipulate the image dynamically and observe the changes immediately. This interactive 
+lesson will give students hands-on experience with image processing techniques while enhancing their understanding of real-time visual feedback."""
 import cv2
 import numpy as np
 
